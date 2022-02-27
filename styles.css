@@ -1,0 +1,31 @@
+body {
+  background:black ;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pwd {
+  border-radius: 2px solid 12px black;
+  position: relative;
+}
+.pwd {
+  background: transparent;
+  border: none;
+  font-size: 1.8em;
+  color: cyan;
+}
+.pwd .overlay {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+.pwd i {
+  font-size: 1.4em;
+  padding: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
